@@ -13,9 +13,9 @@ from openai import OpenAI
 import streamlit as st
 from streamlit.logger import get_logger
 
-LOGGER = get_logger(__name__)
+# LOGGER = get_logger(__name__)
 
-streamlit config show
+# streamlit config show
 def run():
     st.set_page_config(
         page_title="MediQuery",
